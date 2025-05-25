@@ -1,0 +1,100 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+a {
+  text-decoration: none;
+  color: navy;
+}
+
+.container {
+  width: 1296px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 416px;
+  margin: 40px 0px;
+}
+
+.banner {
+  margin-bottom: 16px;
+}
+
+.content {
+  margin-bottom: 16px;
+}
+
+.time {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.tags {
+  display: flex;
+  font-size: 24px;
+  color: #0027d5;
+  line-height: 150%;
+}
+
+.tags > span {
+  margin-right: 6px;
+}
+
+.hot {
+  padding: 2px 12px;
+  border-radius: 40px;
+  background: #0027d5;
+  color: #fff;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.title {
+  font-size: 28px;
+  line-height: 150%;
+  font-weight: 700;
+}
+
+.lead {
+  font-size: 16px;
+  line-height: 150%;
+  max-height: calc(1.5em * 2);
+  overflow: hidden;
+  position: relative;
+  padding-right: 1em;
+}
+
+.lead:after {
+  content: "…";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: white; /* 覆蓋文字背景（可選） */
+}
+
+.link {
+  width: 96px;
+}
+
+.link > a {
+  display: block;
+  border: 1px solid #000;
+  text-align: center;
+  border-radius: 40px;
+  padding: 8px 0px;
+  color: #4b4b4b;
+  font-size: 16px;
+}
+
+.link > a:hover {
+  background: #4b4b4b;
+  color: #fff;
+}
